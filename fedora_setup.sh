@@ -104,7 +104,7 @@ flatpak install flathub us.zoom.Zoom
 flatpak install flathub com.slack.Slack
 
 announce_step "Installing basic dev packages"
-sudo dnf install make git curl wget
+sudo dnf install make git curl wget xclip
 
 announce_step "Configuring git"
 git config --global user.email "edelanuez@pm.me"
@@ -128,4 +128,8 @@ sudo dnf install audacity \
 # ------------------------------------------------------------------------------
 # Coding Environments
 # ------------------------------------------------------------------------------
+
+announce_step "Install GitHub CLI"
+sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+sudo dnf install gh
 
