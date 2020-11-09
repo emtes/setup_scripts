@@ -126,36 +126,3 @@ sudo dnf install audacity \
 	okular \
 	obs-studio
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
