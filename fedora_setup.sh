@@ -116,6 +116,15 @@ git config --global alias.ci commit
 
 echo "Done!"
 
+announce_step "Installing desktop applications"
+sudo dnf install audacity \
+	gimp \
+	inkscape \
+	gnome-tweak-tool \
+	qbittorrent \
+	libreoffice \
+	okular \
+	obs-studio
 
 
 
