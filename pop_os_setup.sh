@@ -17,7 +17,7 @@ sudo apt install gnome-tweak-tool \
   audacity \
   obs-studio \
   libreoffice \
-  qbittorent \
+  qbittorrent \
   steam \
   filezilla
 
